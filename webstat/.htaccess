@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/kh.mtrend.ru/webstat"
+AuthUserFile /var/www/ehan26/data/etc/106323970.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
